@@ -1,0 +1,24 @@
+{
+  "name": "debug",
+  "description": "debug",
+  "version": "0.0.1",
+  "author": "Robert Hall <@arxpoetica>",
+  "license": "MIT",
+  "type": "module",
+  "volta": {
+    "node": "16.3.0"
+  },
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "update": "pnpm update --interactive --latest",
+    "cleanup": "rm -rf node_modules && rm -rf .svelte-kit && rm pnpm-lock.yaml && pnpm install"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-replace": "3.0.0",
+    "@sveltejs/kit": "1.0.0-next.146",
+    "svelte": "3.42.1"
+  }
+}
